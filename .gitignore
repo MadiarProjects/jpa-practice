@@ -38,3 +38,12 @@ build/
 ### Mac OS ###
 .DS_Store
 
+# H2 / Derby / локальные БД
+*.mv.db
+*.trace.db
+*.h2.db
+*.lock.db
+derby.log
+
+# Hibernate
+hibernate.log
